@@ -281,6 +281,14 @@ textarea.form-control {
 	font-size: 18px;
 }
 
+.pfblock-list {
+	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	text-align: left;
+}
+
+
 .pfblock-line {
 	background: rgba(135, 135, 135, 0.5);
 	width: 100px;
@@ -355,6 +363,19 @@ textarea.form-control {
 	padding: 0;
 }
 
+#home_phazam {
+	background: url(../images/phazam_overlay.png);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
+}
+
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
     background-image: url("../images/pattern.png");
@@ -365,6 +386,18 @@ textarea.form-control {
     top: 0;
     width: 100%;
     z-index: 0;
+}
+
+.home-overlay-phazam {
+	background-color: rgba(44, 62, 80, 0.3);
+	background-image: url("../images/phazam_overlay.png");
+  background-repeat: repeat;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
 }
 
 .intro {

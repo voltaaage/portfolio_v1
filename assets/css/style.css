@@ -279,13 +279,14 @@ textarea.form-control {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
+  font-weight: 400;
 }
 
 .pfblock-list {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
-	font-style: normal;
 	font-size: 16px;
 	text-align: left;
+  font-weight: 200;
 }
 
 
@@ -365,6 +366,19 @@ textarea.form-control {
 
 #home_phazam {
 	background: url(../images/phazam_overlay.png);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
+}
+
+#home_adorable {
+	background: url(../images/adorable_hero.png);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -937,7 +951,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
 .no-js .cbp-qtrotator .cbp-qtcontent {
-	position: relative; 
+	position: relative;
 	z-index: 100;
 	pointer-events: auto;
 	opacity: 1;
@@ -990,7 +1004,7 @@ figure.effect-bubba:hover p {
 }
 
 /* Example for media query */
-@media screen and (max-width: 30.6em) { 
+@media screen and (max-width: 30.6em) {
 
 	.cbp-qtrotator {
 		font-size: 70%;

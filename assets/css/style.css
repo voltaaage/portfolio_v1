@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=roboto);
 
 /*!
  * Clean v2.0.0
@@ -272,18 +273,18 @@ textarea.form-control {
 }
 
 .pfblock-title{
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .pfblock-subtitle {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: Raleway, sans-serif;
 	font-style: normal;
 	font-size: 18px;
   font-weight: 400;
 }
 
 .pfblock-list {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: Raleway, sans-serif;
 	font-size: 16px;
 	text-align: left;
   font-weight: 200;
@@ -599,9 +600,8 @@ textarea.form-control {
 }
 
 .navbar-custom .navbar-brand {
-	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+	font-family: Raleway, sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
